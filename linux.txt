@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo su = acesso total no linux
+=======
+rm -rf temp = deleta a pasta sem perguntar
+>>>>>>> 5631a4f165eec4b6fc8b86d88d964cdd0a0a9e08
 =======
 sudo su permissao total
 >>>>>>> c03ae267fde86ee911dde42595b49bee0d148e14
