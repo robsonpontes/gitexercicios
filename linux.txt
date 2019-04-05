@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 sudo su = acesso total no linux
+=======
+sudo su permissao total
+>>>>>>> c03ae267fde86ee911dde42595b49bee0d148e14
