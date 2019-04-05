@@ -1,0 +1,2 @@
+chmod 777 -R temp
+(Dá permissao de livre acesso para determinada pasta)
