@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicio 2</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <script type="text/javascript" src="Untitled-1.js"></script> 
+    </head>
+        
+    <body >
+        
+        <div id="borda1" class="vitrine">
+            <center><h2 style="color: white">Teste lógico de PHP e JavaScript</h2></center>
+        </div>
+
+        <div class="vitrine2">
+            <form>
+                <label style="font-size: larger">Informe os 3 numeros abaixo: </label>
+                <br>
+                <input id= n1 type="number">
+                <input id= n2 type="number">  
+                <input id= n3 type="number">
+                
+                <input id="salvar" type="button" onclick="teste()" value="Salvar "/> 
+                
+                <div>
+                    <input type="radio"  value="maior" id="maior" name="alternar" checked=""> Exibir os maiores valores                    <br>
+                    <input  type="radio"   value="menor" id="menor"  name="alternar"> Exibir os menores valores
+                </div>
+                    
+            </form>
+         
+            <div>
+                    <label style="font-size: larger" id="result">Resultado</label>
+                    <input class="resposta" type="text" id="resposta" value=""/>
+                    <input id="limpar" type="button" onclick="limpar()" value="limpar "/>
+                </div>
+         </div>
+         
+
+    </body>
+</html>
