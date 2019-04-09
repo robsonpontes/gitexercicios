@@ -11,7 +11,7 @@ function calcularMaiorValor(valores){
         }
     }
     return maiorValor; 
-}
+}               
 function calcularMenorValor(valores){
     // Se valor1 for o menor de todos...
     let menorValor = valores[0];
@@ -31,8 +31,8 @@ function mostraMenores(menoresValores){
 }
 //nome mudade de maior para Maiores
 function mostrarMaiores(maioresValores){ 
-    let ordenaEmOrdemCrescente = maioresValores.sort()
-    let inverteParaDecrescente = maioresValores.reverse()
+    let ordenaEmOrdemCrescente = maioresValores.sort();
+    let inverteParaDecrescente = maioresValores.reverse();
     document.getElementById("resultado").value = maioresValores;   
 }
 function guardarValores(){
@@ -41,8 +41,9 @@ function guardarValores(){
         let valor1 = document.getElementById("valor1").value;
         let valor2 = document.getElementById("valor2").value;
         let valor3 = document.getElementById("valor3").value;
+        console.log (valor1)
         //Array com os valores das caixas, para verificar qual o maior.
-        let valoresCaixas = [valor1,valor2,valor3];
+        let valoresCaixas = [valor1 *1,valor2 *1,valor3*1];
         let maiorValor = calcularMaiorValor(valoresCaixas);
         let menorValor = calcularMenorValor(valoresCaixas);
         //Adiciona o maior Valor para a lista de maiores Valores, assim como o menor para a lista de menores Valores
@@ -73,5 +74,4 @@ document.getElementById("reiniciar").addEventListener("click", function(){
     document.getElementById("valor1").value = "";
     document.getElementById("valor2").value = "";
     document.getElementById("valor3").value = "";
-    document.getElementById("resultado").value = "";
 })
