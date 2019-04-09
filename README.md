@@ -1,2 +1,0 @@
-# gitexercicios
-Vamos Treina
